@@ -1,7 +1,9 @@
 # 🚀 Let me Ask - Web/Frontend
 
-Bem-vindo ao frontend do **Let me Ask**, um projeto criado durante o evento **NLW Agents** da Rocketseat!  
-Aqui você pode criar salas, enviar perguntas e receber respostas geradas por IA em tempo real.
+Este repositório representa o frontend do projeto desenvolvido durante a Trilha Intermediária do **NLW Agents** da Rocketseat.
+A proposta foi reconstruir o clássico **Let me Ask**, uma aplicação pensada para lives e transmissões, onde o público pode enviar perguntas e o apresentador pode gerenciar todas elas em tempo real.
+Mas aqui, o projeto ganhou um superpoder: a integração com um Agente de I.A., capaz de responder automaticamente as perguntas recebidas, tornando a interação com a audiência muito mais dinâmica.
+Além disso, é possível criar novas salas personalizadas, permitindo que diferentes eventos, temas ou transmissões tenham seus próprios espaços para perguntas e respostas.
 
 ---
 
