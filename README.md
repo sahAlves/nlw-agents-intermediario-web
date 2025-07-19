@@ -7,25 +7,28 @@ Além disso, é possível criar novas salas personalizadas, permitindo que difer
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## ✨ Funcionalidades
 
-- **[React](https://react.dev/)** & **[TypeScript](https://www.typescriptlang.org/)** — SPA moderna e tipada
-- **[Vite](https://vitejs.dev/)** — Build e dev server ultrarrápido
-- **[Tailwind CSS](https://tailwindcss.com/)** — Estilização utilitária
-- **[@tanstack/react-query](https://tanstack.com/query/latest)** — Gerenciamento e cache de dados
-- **[React Router DOM](https://reactrouter.com/en/main)** — Roteamento SPA
-- **[class-variance-authority](https://cva.style/)**, **[clsx](https://github.com/lukeed/clsx)**, **[tailwind-merge](https://tailwind-merge.vercel.app/)** — Utilitários de classe
-- **[Radix UI](https://www.radix-ui.com/)** — Componentes acessíveis (Slot)
-- **[Lucide React](https://lucide.dev/)** — Ícones modernos
+- Criação de salas
+- Envio de perguntas de texto
+- Gravação de áudio direto do navegador
+- Envio automático de trechos de áudio
+- Respostas geradas por IA
+- Interface com feedback em tempo real
 
 ---
 
-## 🧩 Padrões de Projeto
+## 🛠️ Tecnologias Utilizadas
 
-- **Componentização**: Componentes reutilizáveis em [`src/components`](src/components)
-- **Hooks & Utils**: Funções utilitárias em [`src/lib`](src/lib)
-- **Roteamento**: Definido em [`src/app.tsx`](src/app.tsx) usando React Router
-- **Estilização utilitária**: Tailwind CSS e variantes de classe para máxima flexibilidade
+- **React 19.1** – Biblioteca para interfaces de usuário  
+- **TypeScript 5.8** – Superset do JavaScript com tipagem estática  
+- **Vite 7.0** – Ferramenta de build e servidor de desenvolvimento rápido  
+- **TailwindCSS 4.1** – Framework CSS utility-first para estilização  
+- **React Router Dom 7.6** – Gerenciamento de rotas e navegação  
+- **TanStack React Query 5.8** – Gerenciamento de dados assíncronos e cache  
+- **Radix UI** – Componentes acessíveis e base para construção de UI  
+- **Shadcn/ui** – Biblioteca de componentes estilizados com Tailwind  
+- **Lucide React** – Coleção de ícones SVG para React
 
 ---
 
@@ -34,7 +37,7 @@ Além disso, é possível criar novas salas personalizadas, permitindo que difer
 1. **Clone o repositório**
    ```sh
    git clone https://github.com/sahAlves/nlw-agents-intermediario-web.git
-   cd web
+   cd nlw-agents-intermediario-web
    ```
 
 2. **Instale as dependências**
@@ -49,6 +52,24 @@ Além disso, é possível criar novas salas personalizadas, permitindo que difer
 
 4. **Acesse:**  
    [http://localhost:5173](http://localhost:5173) (ou a porta exibida no terminal)
+
+---
+
+## 📸 Interface
+
+### Página Inicial
+![Página inicial com campo para criar ou acessar sala](./public/print-home.png)
+
+### Sala com suas perguntas
+![Sala com perguntas e respostas](./public/print-sala.png)
+
+### Sala de Gravação
+![Sala com gravador](./public/print-gravador.png)
+
+### Respostas
+![Exemplo de pergunta e resposta](./public/print-resposta.png)
+
+
 
 ---
 
